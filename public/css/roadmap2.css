@@ -1,0 +1,164 @@
+#navbar {
+    flex-direction: column;
+    height: 14vh;
+    /* gap: 0.3vh; */
+    padding-top: 0;
+}
+#navbar ul li a{
+    font-size: 0.8rem;
+    padding: 0px 0.8vw;
+    padding-bottom: 7px;
+}
+#home{
+    height: 60vh;
+    padding: 3px 15px;
+}
+#home::before{
+    height: 74vh;
+}
+#home h1{
+    font-size: 2.4rem;
+    margin: 1rem 0rem;
+}
+#home .text #first{
+   font-size: 1.5rem;
+}
+#home .text{
+    font-size: 1rem;
+    line-height:1.2rem;
+    padding: 0 1rem;
+}
+#home .text #second{
+    margin-bottom: 2rem;
+}
+.btn{
+    font-size: 1rem;
+}
+#movingdiv{
+   /* top: 70%; */
+    padding: 0.5rem;
+    width: 50%;
+}
+#movingdiv .move img{
+    height: 1rem;
+}
+#loader h1{
+    font-size: 3rem;
+}
+@media screen and (max-width:500px){
+    #loader h1{
+        font-size: 2rem;
+    }
+    .form{
+        width: 39vh;
+    }
+    .email{
+        padding: 12px;
+        width: 34vh;
+    }
+    footer{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:395px){
+    body{
+        background-size: contain;
+    }
+   #home{
+    padding: 3px;
+   }
+
+   .form{
+    width: 35vh;
+}
+.email{
+    padding: 10px;
+    width:25vh;
+}
+footer{
+    font-size: 14px;
+}
+.card img{
+    width: 300px;
+}
+.carddata{
+    width: 260px;
+}
+}
+@media screen and (max-width:355px){
+   body{
+    background-size: contain;
+}
+   .form{
+    width: 32vh;
+}
+.email{
+    padding: 10px;
+    width: 20vh;
+}
+footer{
+    font-size: 13.5px;
+}
+}
+@media screen and (max-width:340px){
+    #home{
+        width: 110vw;
+    }
+    #home::before{
+        width: 110vw;
+    }
+    #navbar{
+        width: 110vw;
+    }
+    #navbar::before{
+        width: 110vw;
+    }
+    .fieldcontainer{
+        width: 110vw;
+    }
+    .contact{
+        width: 110vw;
+    }
+    .separation{
+        width: 110vw;
+    }
+    footer{
+        width: 110vw;
+    }   
+    .card img{
+        width: 290px;
+    }
+    .carddata{
+        width: 250px;
+    }
+    #loader{
+        width: 110vw;
+        height: 100vh;
+    }
+}
+
+@media screen and (max-height:750px){
+    #navbar{
+        height: 7.5rem;
+    }
+    #home{
+        height: 30rem;
+    }
+    #home::before{
+        height: 37.5rem;
+    }
+}
+@media screen and (max-height:500px){
+    #navbar{
+        height: 7.5rem;
+    }
+    #home{
+        height: 28rem;
+    }
+    #home::before{
+        height: 35.5rem;
+    }
+    #loader{
+        height: 100vh;
+    }
+}
